@@ -1,9 +1,11 @@
 import HeroSection from "@/components/HeroSection";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
-      <div className="container  px-12 py-4 mx-auto">
+      <Navbar/>
+      <div className="container mt-24 px-12 py-4 mx-auto">
       <HeroSection />
       </div>
     </main>
