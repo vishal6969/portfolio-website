@@ -9,7 +9,8 @@ const XmarkIcon = ({ color, height, width, strokeWidth }: IconI) => {
       viewBox="0 0 24 24"
       strokeWidth={strokeWidth}
       stroke={color}
-      className={`w-${width} h-${height}`}
+      height={20}
+      width={20}
     >
       <path
         strokeLinecap="round"
@@ -22,8 +23,8 @@ const XmarkIcon = ({ color, height, width, strokeWidth }: IconI) => {
 
 XmarkIcon.defaultProps = {
   color: "currentColor",
-  height: 6,
-  width: 6,
+  height: 20,
+  width: 20,
   strokeWidth: 1.5,
 };
 
