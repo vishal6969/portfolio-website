@@ -19,7 +19,7 @@ const HeroSection = () => {
               Hello, I'm
             </span>
             <br></br>
-            {text + " |"}
+            {text + "|"}
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6">
             Welcome to my digital space! Explore the fusion of my passion and
