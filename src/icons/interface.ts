@@ -3,4 +3,5 @@ export interface IconI {
     height?: number;
     width?: number;
     strokeWidth?: number;
+    className?: string;
 }
