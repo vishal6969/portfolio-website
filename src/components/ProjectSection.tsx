@@ -70,7 +70,7 @@ const ProjectSection = () => {
   );
   return (
     <section>
-      <h1 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+      <h1 className="text-left md:text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h1>
       <div className="flex flex-row justify-center items-center gap-2 text-white py-6">
